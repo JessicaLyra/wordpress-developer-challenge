@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'CircularSpotifyTxT-Black';
+    src: url('../fonts/CircularSpotifyTxT-Black.woff2') format('woff2'),
+         url('../fonts/CircularSpotifyTxT-Black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CircularSpotifyTxT-Bold';
+    src: url('../fonts/CircularSpotifyTxT-Bold.woff2') format('woff2'),
+         url('../fonts/CircularSpotifyTxT-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CircularSpotifyTxT-Book';
+    src: url('../fonts/CircularSpotifyTxT-Book.woff2') format('woff2'),
+         url('../fonts/CircularSpotifyTxT-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CircularSpotifyTxT-Light';
+    src: url('../fonts/CircularSpotifyTxT-Light.woff2') format('woff2'),
+         url('../fonts/CircularSpotifyTxT-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CircularSpotifyTxT-Med';
+    src: url('../fonts/CircularSpotifyTxT-Med.woff2') format('woff2'),
+         url('../fonts/CircularSpotifyTxT-Med.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

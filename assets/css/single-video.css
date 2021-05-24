@@ -1,0 +1,156 @@
+body {
+    background-color:#000;
+}
+.cont{
+   padding-top: 138px; 
+   padding-left: 418px;  
+   
+}
+.bloco-info {
+    width:820px;
+    
+}
+ .cont-info-1 {
+    background-color:#fff;
+    width:128px;                
+    opacity:1;
+    border-radius:3px; 
+    color:#5a5a5a;
+}
+ul {
+    padding-left:0;
+    text-align: center;
+    margin-bottom:0;
+}
+li {
+    list-style: none;
+    padding-top:3px;
+    letter-spacing: 0.54px; 
+    text-align: center;
+    text-transform: capitalize;
+}
+.cont-info-1 a, .cont-info-1 a:hover {
+    color:#5a5a5a;
+    text-decoration: none;
+    font-family: 'CircularSpotifyTxT-Med';
+    
+}
+
+h1 {
+    color:#fff;
+    font-size:70px;
+    font-weight: 900 ;
+    width:1083px;
+    padding-top: 14px;
+}
+.cont-info-2 {
+    border:1px solid #fff;
+    width:128px;
+    text-align:center;
+    opacity:1;
+    border-radius:3px;
+    color:#fff;
+    font-family: 'CircularSpotifyTxT-Med';
+}
+.video {
+    margin-top:74px;
+    width:1200px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.video iframe {
+    width:100%;
+    height:700px;
+}
+.sinopse {
+    color:#fff;
+    font-size: 18px;
+    letter-spacing: 0.54px;
+    margin-bottom:122px;
+    margin-top:93px;
+    font-family: 'CircularSpotifyTxT-Med';
+
+}
+/*===RESPONSIVO===*/
+@media (min-width:320px) and (max-width:768px) {
+    .cont {
+        padding-top:20px;
+        padding-left:28px;
+        padding-right: 28px;
+    }
+
+    .cont-info-1, .cont-info-2{
+        width: 111px;
+        height:28px;
+    }
+
+    h1 {
+        font-size:28px;
+        width: 100%;
+    }
+    .video {
+      width:100%;
+      margin-top:0;
+    }
+    .video iframe {
+        height:280px;
+    }
+
+    .sinopse {
+        font-size:12px;
+        padding: 44px 30px;
+        margin-top:44px;
+        margin-bottom: 45px;
+    }
+    
+}
+
+@media (min-width:769px) and (max-width:1199px){
+    .cont {
+        padding-top:10px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    h1 {
+        padding-top: 50px;
+        font-size:35px;
+        width:100%;
+    }
+    .video  {
+        width:100%;
+    }
+
+    .video iframe {
+        height:400px;
+    }
+
+    .sinopse {
+        font-size:14px;
+        padding: 50px;
+        margin-bottom:0;
+    }
+    
+}
+
+@media (min-width:1200px) and (max-width:1400px){
+    .cont {
+        padding-left: 318px;
+    }
+
+    h1 {
+        font-size:50px;
+        width: 783px;
+    }
+    .video {
+        margin-top:74px;
+        width:1000px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .sinopse{
+        margin-top: 43px;
+    }
+}    
